@@ -5,21 +5,26 @@
     color: white;
 }
 body {
-    background-color: rgb(199, 93, 93);
+    background-color: black;
     color: white;
 }
 
 header {
     height: 50px;
+    width: 85%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .btn {
 
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(128, 128, 128, 0.836);
     border-radius: 5px;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
     
 }
  
@@ -33,19 +38,31 @@ a {
 main{
     display: flex;
     height: 1000px;
-    background-color: orange;
+    background-color: black;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    
+}
+
+.main-window{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box{
     position: relative;
+    width: 20%;
+    
     
 }
 .persona{
     position: absolute;
     top: 140px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.836);
+    display: flex;
 }
 img {
     width: 250px;
@@ -54,30 +71,49 @@ img {
 }
 
 span{
-    padding: 5px;
-    background-color: rgba(128, 128, 128, 0.836);
-    display: flex;
+    
 
 }
 
 
 .pagina{
+    height: 100%;
     justify-content: space-between;
     align-self: center;
 }
 
 /* footer */
+footer{
+    width: 85%;
+}
+
+.colcentral{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
     background-color: red;
     height: 50px;
+    flex-direction: row;
 }
 
-.col{
-        
+.colsx{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
 }
 
+.colcentral{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
 
 .btn-second{
     display: inline-block;
@@ -87,5 +123,5 @@ span{
 
 .btnred{
     color: red;
-    height-ali;
+    
 }
