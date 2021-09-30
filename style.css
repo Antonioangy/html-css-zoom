@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-color: rgb(199, 93, 93);
+    color: white;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.836);
+    border-radius: 7px;
+    margin-left: 10px;
+}
+ 
+a {
+    text-decoration-line: none; 
+}
+
+
+/* parte centrale */
+
+main{
+    height: 1000px;
+    background-color: orange;
+}
+
+
+
+img {
+    width: 250px;
+}
+
+span{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.836);
+    display: flex;
+
+}
+
+
+/* footer */
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 50px;
+}
