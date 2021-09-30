@@ -18,8 +18,9 @@ header {
 
     padding: 5px;
     background-color: rgba(128, 128, 128, 0.836);
-    border-radius: 7px;
+    border-radius: 5px;
     margin-left: 10px;
+    
 }
  
 a {
@@ -30,14 +31,26 @@ a {
 /* parte centrale */
 
 main{
+    display: flex;
     height: 1000px;
     background-color: orange;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 }
 
-
-
+.box{
+    position: relative;
+    
+}
+.persona{
+    position: absolute;
+    top: 140px;
+}
 img {
     width: 250px;
+    border: solid 5px black;
+    
 }
 
 span{
@@ -48,10 +61,31 @@ span{
 }
 
 
+.pagina{
+    justify-content: space-between;
+    align-self: center;
+}
+
 /* footer */
 .row {
     display: flex;
     justify-content: space-between;
     background-color: red;
     height: 50px;
+}
+
+.col{
+        
+}
+
+
+.btn-second{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.btnred{
+    color: red;
+    height-ali;
 }
